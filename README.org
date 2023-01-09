@@ -5,25 +5,25 @@ BoundingRect.py and bounding-rect.lisp provide two different strategies for the 
 * Examples
 ** tea.png
 *** Source
-#+html: <p align="center"><img src="images/tea.png" /></p>
+#+html: <p align="center"><img width="200" src="images/tea.png" /></p>
 *** Resulting tile
-#+html: <p align="center"><img src="images/tea_tile.png" /></p>
+#+html: <p align="center"><img width="200" src="images/tea_tile.png" /></p>
 *** What it looks like tiled
-#+html: <p align="center"><img src="images/tea_tile_result.png" /></p>
+#+html: <p align="center"><img width="200" src="images/tea_tile_result.png" /></p>
 ** roman.png
 *** Source
-#+html: <p align="center"><img src="images/roman.png" /></p>
+#+html: <p align="center"><img width="200" src="images/roman.png" /></p>
 *** Resulting tile
-#+html: <p align="center"><img src="images/roman_tile.png" /></p>
+#+html: <p align="center"><img width="200" src="images/roman_tile.png" /></p>
 *** What it looks like tiled
-#+html: <p align="center"><img src="images/roman_tile_result.png" /></p>
+#+html: <p align="center"><img width="200" src="images/roman_tile_result.png" /></p>
 ** sus.png
 *** Source
-#+html: <p align="center"><img src="images/sus.png" /></p>
+#+html: <p align="center"><img width="200" src="images/sus.png" /></p>
 *** Resulting tile
-#+html: <p align="center"><img src="images/sus_tile.png" /></p>
+#+html: <p align="center"><img width="200" src="images/sus_tile.png" /></p>
 *** What it looks like tiled
-#+html: <p align="center"><img src="images/sus_tile_result.png" /></p>
+#+html: <p align="center"><img width="200" src="images/sus_tile_result.png" /></p>
 * How does it work?
 ** BoundingRect.py
 BoundingRect.py uses a dynamic programming approach to finding the biggest rectangle inside a given transparent png file.
