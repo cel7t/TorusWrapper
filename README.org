@@ -5,25 +5,25 @@ BoundingRect.py and bounding-rect.lisp provide two different strategies for the 
 * Examples
 ** tea.png
 *** Source
-#+html: <p align="center"><img src="images/tea.png?raw=true" /></p>
+[[./images/tea.png]]
 *** Resulting tile
-#+html: <p align="center"><img src="images/tea_tile.png?raw=true" /></p>
+[[./images/tea_tile.png]]
 *** What it looks like tiled
-#+html: <p align="center"><img src="images/tea_tile_result.png?raw=true" /></p>
+[[./images/tea_tile_result.png]]
 ** roman.png
 *** Source
-#+html: <p align="center"><img src="images/roman.png?raw=true" /></p>
+[[./images/roman.png]]
 *** Resulting tile
-#+html: <p align="center"><img src="images/roman_tile.png?raw=true" /></p>
+[[./images/roman_tile.png]]
 *** What it looks like tiled
-#+html: <p align="center"><img src="images/roman_tile_result.png?raw=true" /></p>
+[[./images/roman_tile_result.png]]
 ** sus.png
 *** Source
-#+html: <p align="center"><img src="images/sus.png?raw=true" /></p>
+[[./images/sus.png]]
 *** Resulting tile
-#+html: <p align="center"><img src="images/sus_tile.png?raw=true" /></p>
+[[./images/sus_tile.png]]
 *** What it looks like tiled
-#+html: <p align="center"><img src="images/sus_tile_result.png?raw=true" /></p>
+[[./images/sus_tile_result.png]]
 * How does it work?
 ** BoundingRect.py
 BoundingRect.py uses a dynamic programming approach to finding the biggest rectangle inside a given transparent png file.
